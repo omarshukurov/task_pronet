@@ -1,0 +1,253 @@
+body{
+  background: #f3f3f3;
+}
+
+/* Universal Classes */
+a{
+  text-decoration: none !important;
+}
+
+img{
+  width: 100%;
+}
+
+.navbar{
+  height: 50px !important;
+}
+
+/* brand triangle */
+.fa-caret-up{
+  font-size: 2rem;
+  color: aqua;
+}
+
+/* Search Bar */
+.playground {
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+
+.playground .container {
+  width: 250px;
+  height: 30px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.playground .container .content {
+  padding: 0 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.playground .container .content input {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  height: 100%;
+  background: transparent;
+}
+
+.playground .container .content i {
+  flex: 0 0 auto;
+  margin-left: 5px;
+}
+
+/* Search bar Select Dropdown*/
+.playground .container .content select{
+  border: none;
+  outline: none;
+  margin-left: -70px;
+}
+
+/* Navbar Notifications Area */
+.notifications{
+  position: relative;
+  left: -20px;
+  top: 20px;
+}
+
+ul.notifications li{
+  float: left;
+  display: inline;
+}
+
+.notifications-borders{
+  border-left: 1px solid rgba(0,0,0, 0.6);
+  border-right: 1px solid rgba(0,0,0, 0.6);
+}
+
+.notifications i{
+  font-size: 1.2rem;
+}
+
+/* Nav İcons colors */
+.fa-comments {
+  color: rgb(42, 42, 194);
+}
+
+.fa-user{
+  color: aqua;
+}
+
+.fa-bell{
+  color: rgb(23, 165, 23);
+}
+
+/* USER Log image */
+.userLog img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid green;
+}
+
+.userLog p{
+  line-height: 6px;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.userLog div{
+  margin-right: 50px;
+}
+
+
+/* Navbar  */
+.active{
+  border-left: greenyellow 2px solid !important;
+} 
+
+/* Left side nav */
+.sidebar{
+  height: 100vh ;
+  float: left;
+}
+
+
+
+/******************* Side and Main nav Ends here **********************/
+.backToSearch{
+  border-bottom: 1px dashed #333;
+  padding: 20px;
+  margin: 15px;
+  width: 95vw;
+}
+.backToSearch a{
+  text-decoration: none;
+  color: #333;
+  padding-left: 20px;
+}
+
+/* Your List section */
+.yourList img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.yourList a{
+  font-size: 0.8rem;
+  color: #333;
+} 
+
+.yourList .active{
+  border: none;
+  border-left: rgb(130, 197, 29) 3px solid !important;
+  background: #f4f4f4;
+} 
+.yourList li:first-child{
+  background: #666;
+  color: #fff;
+}
+
+/* Middle Section */
+.middleSection{
+  font-size: 0.8rem;
+}
+
+.middleSection .date{
+  background: rgb(163, 162, 162);
+  color: #333;
+  font-weight: 700;
+  height: 30px !important;
+  font-size: 0.8rem;
+  padding: 2px 20px;
+}
+
+.middleSection .img-group{
+  display: flex;
+}
+.middleSection .img-group img{
+  margin-right: 5px;
+}
+
+.middleSection .history img{
+  width: 20px;
+  height: 20px;
+}
+
+.userAction{
+  color: rgb(19, 231, 231);
+  font-weight: 700;
+}
+
+/* World Cloud Section */
+.worldCloud li:first-child{
+  font-weight: 700;
+  color: #666;
+}
+
+
+/* Geographic Subjects */
+.subjects{
+  line-height: 0.8rem;
+  border-top: none !important;
+}
+
+.subjects li:first-child{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+/* topInfluencers section */
+.topInfluencers img{
+  width: 40px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.topInfluencers .progress{
+  height: 2px;  
+  width: 60%;
+  float: left;
+}
+
+.topInfluencers .far{
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+.topInfluencers ul li:first-child{
+  font-weight: 700;
+  color: rgb(68, 67, 67);
+}
+
+.topInfluencers .btn{
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 30%;
+  font-size: 0.8rem;
+}
